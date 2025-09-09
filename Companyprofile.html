@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+<div class="navbar bg-base-100 shadow-sm">
+  <div class="flex-none">
+    <button class="btn btn-square btn-ghost">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-5 w-5 stroke-current"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg>
+    </button>
+  </div>
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl">FGI</a>
+  </div>
+  <div class="flex-none">
+    <button class="btn btn-square btn-ghost">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-5 w-5 stroke-current"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path> </svg>
+    </button>
+  </div>
+</div>    
+    <!-- Navbar end -->
+
+    <!-- Hero Section -->
+     <div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content flex-col lg:flex-row">
+    <img
+      src="asset/Fgi.png"
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
+    <div>
+      <h1 class="text-5xl font-bold">FORT GARRY INDUSTRIES</h1>
+      <p class="py-6">
+       PT FORT GARRY INDUSTRI adalah salah satu perusahaan yang memproduksi cat berkualitas dan alat renovasi rumah dan tentunya dengan harga yang terjangkau. Kami berkomitmen untuk memberikan produk terbaik kepada pelanggan kami, memastikan kepuasan dan kepercayaan dalam setiap proyek renovasi rumah.
+      </p>
+      <button class="btn btn-primary bg-teal-700 text-white">Get Started</button>
+    </div>
+  </div>
+</div>
+    <!-- Hero end -->
+
+    <!-- Kata pengantar -->
+     <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kata Pengantar – Company Profile</title>
+  <style>
+    :root {
+      --brand: #0f766e;   /* ganti dengan warna brandmu */
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #ffffff;
+      --paper: #f9fafb;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0; background: var(--paper); color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 900px; margin: 40px auto; padding: 24px;
+    }
+
+    .card {
+      background: var(--bg); border: 1px solid #e5e7eb; border-radius: 16px;
+      padding: 32px 28px; box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+    }
+
+    header {
+      display: flex; align-items: center; gap: 16px; margin-bottom: 24px;
+    }
+    .logo {
+      width: 64px; height: 64px; border-radius: 12px; object-fit: cover; background: #e5e7eb;
+    }
+    .headings h1 {
+      margin: 0; font-size: 28px; letter-spacing: .2px;
+    }
+    .headings p {
+      margin: 4px 0 0; color: var(--muted); font-size: 14px;
+    }
+
+    h2.section-title {
+      font-size: 20px; margin: 20px 0 12px; color: var(--brand);
+      text-transform: uppercase; letter-spacing: .12em;
+    }
+
+    .lead {
+      font-size: 18px; color: #111827; margin-bottom: 10px; font-weight: 600;
+    }
+
+    .content p { margin: 10px 0; }
+
+    .blockquote {
+      margin: 16px 0; padding: 14px 16px; background: #f1f5f9; border-left: 4px solid var(--brand);
+      border-radius: 8px;
+      color: #0f172a; font-style: italic;
+    }
+
+    .signature {
+      margin-top: 28px; display: grid; gap: 8px;
+    }
+
+    .sig-row {
+      display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+    }
+    .sig-line {
+      flex: 1; height: 1px; background: #e5e7eb;
+    }
+
+    .sig-meta {
+      display: flex; gap: 12px; align-items: center;
+    }
+    .sig-stamp {
+      width: 72px; height: 72px; border: 2px dashed var(--brand); border-radius: 50%;
+      display: grid; place-items: center; font-size: 10px; color: var(--brand);
+    }
+
+    .sig-name { font-weight: 700; }
+    .sig-title { color: var(--muted); }
+    .sig-company { color: var(--text); font-weight: 600; }
+
+    footer {
+      margin-top: 28px; font-size: 13px; color: var(--muted);
+      display: flex; gap: 16px; flex-wrap: wrap;
+      border-top: 1px solid #e5e7eb; padding-top: 14px;
+    }
+
+    /* Print */
+    @media print {
+      body { background: #fff; }
+      .wrap { margin: 0; max-width: 100%; padding: 0; }
+      .card { border: none; box-shadow: none; border-radius: 0; padding: 0; }
+      header { margin-bottom: 12px; }
+      .sig-stamp { border-color: #000; color: #000; }
+      a { color: black; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <!-- Ganti src logo.png dengan logo perusahaan -->
+        <img class="" src="asset/Fgi.png" width="90"/>
+        <div class="headings">
+          <h1>Company Profile</h1>
+          <p>Kata Pengantar / Sambutan</p>
+        </div>
+      </header>
+
+      <h2 class="section-title">Kata Pengantar</h2>
+
+      <p class="lead">Salam sejahtera,</p>
+
+      <div class="content">
+        <p>
+          Puji syukur kami panjatkan karena atas dukungan dan kepercayaan dari para mitra,
+          klien, serta seluruh pemangku kepentingan, <span class="sig-company">PT Contoh Sejahtera</span>
+          terus bertumbuh dan berinovasi dalam menghadirkan solusi terbaik bagi pelanggan.
+          Dokumen company profile ini kami susun untuk memperkenalkan identitas, layanan,
+          serta kompetensi inti perusahaan kami.
+        </p>
+
+        <p>
+          Sejak berdiri pada tahun 2018, kami berkomitmen pada kualitas, integritas,
+          dan kolaborasi. Nilai-nilai tersebut menjadi fondasi dalam setiap proyek
+          yang kami jalankan—mulai dari perencanaan, eksekusi, hingga layanan purna jual.
+        </p>
+
+        <div class="blockquote">
+          “Fokus kami sederhana: menciptakan nilai nyata bagi klien melalui solusi
+          yang andal, efisien, dan berkelanjutan.”
+        </div>
+
+        <p>
+          Kami berharap company profile ini memberikan gambaran singkat mengenai siapa
+          kami dan bagaimana kami dapat berkontribusi pada kebutuhan Anda. Kami terbuka
+          untuk berdiskusi lebih lanjut dan menantikan kesempatan bekerja sama.
+        </p>
+      </div>
+
+      <div class="signature">
+        <div class="sig-row">
+          <div class="sig-line"></div>
+          <div class="sig-stamp">TANDA<br/>TANGAN</div>
+          <div class="sig-line"></div>
+        </div>
+        <!-- Ganti nama, jabatan, dan perusahaan -->
+        <div class="sig-meta">
+          <div>
+            <div class="sig-name">FARHAN AIMAR</div>
+            <div class="sig-title">CEO</div>
+            <div class="sig-company">PT FORT GARRY INDUSTRI</div>
+          </div>
+        </div>
+        <div class="sig-date" style="color: var(--muted); font-size: 14px;">
+          Karawang, September 2025
+        </div>
+      </div>
+
+      <footer>
+        <!-- Opsional: info kontak singkat -->
+        <div>Tel: 0852 1234 5678</div>
+        <div>Email: hello@contoh.co.id</div>
+        <div>Website: www.contoh.co.id</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
+    <!-- Kata pengantar end -->
+
+    <!-- tentang perusahaan -->
+     <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Perusahaan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #0f766e;
+    }
+    h2 {
+      margin-top: 24px;
+      color: #0f766e;
+    }
+    p {
+      margin-bottom: 12px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Tentang Perusahaan</h1>
+    <p>
+      <span class="highlight">PT FORT GARRY INDUSTRI</span> adalah perusahaan yang bergerak di bidang 
+      alat renovasi rumah modern. Berdiri sejak tahun 2018, kami berkomitmen untuk memberikan 
+      solusi inovatif yang dapat membantu bisnis dan masyarakat berkembang di era modern.
+    </p>
+
+    <h2>Visi</h2>
+    <p>
+      Menjadi perusahaan bahan bangunan terdepan yang menghadirkan solusi bermanfaat, 
+      berkelanjutan, dan dapat diakses oleh semua kalangan.
+    </p>
+
+    <h2>Misi</h2>
+    <ul>
+      <li>Mengembangkan produk dan layanan berbasis teknologi yang inovatif.</li>
+      <li>Meningkatkan kualitas layanan dengan standar internasional.</li>
+      <li>Membangun kerja sama jangka panjang dengan klien dan mitra.</li>
+      <li>Memberikan dampak positif bagi masyarakat dan lingkungan.</li>
+    </ul>
+
+    <h2>Nilai Perusahaan</h2>
+    <ul>
+      <li><strong>Integritas:</strong> Menjunjung tinggi kejujuran dan profesionalisme.</li>
+      <li><strong>Inovasi:</strong> Terus berkreasi untuk menghasilkan solusi baru.</li>
+      <li><strong>Kolaborasi:</strong> Mengutamakan kerja sama tim dan kemitraan.</li>
+      <li><strong>Keberlanjutan:</strong> Berkontribusi pada pembangunan yang ramah lingkungan.</li>
+    </ul>
+  </div>
+</body>
+</html>
+    <!-- tentang perusahaan end -->
+
+    <!-- Profile perusahaan -->
+     <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Perusahaan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #0f766e;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table th, table td {
+      text-align: left;
+      padding: 10px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    table th {
+      width: 30%;
+      color: #0f766e;
+    }
+    h2 {
+      margin-top: 24px;
+      color: #0f766e;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .org-chart {
+      margin-top: 16px;
+      padding: 16px;
+      background: #f1f5f9;
+      border-radius: 10px;
+    }
+    .org-chart ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .org-chart li {
+      margin: 6px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Profil Perusahaan</h1>
+
+    <table>
+      <tr>
+        <th>Nama Perusahaan</th>
+        <td>PT Fort Garry Industri</td>
+      </tr>
+      <tr>
+        <th>Tahun Berdiri</th>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <th>Alamat</th>
+        <td>Jl. Surya Cipta No. 123, Karawang, Indonesia</td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>hello@contoh.co.id</td>
+      </tr>
+      <tr>
+        <th>Telepon</th>
+        <td>(021) 1234 5678</td>
+      </tr>
+      <tr>
+        <th>Badan Hukum</th>
+        <td>Perseroan Terbatas (PT)</td>
+      </tr>
+      <tr>
+        <th>Legalitas</th>
+        <td>SIUP No. 123/456/789 – TDP No. 987654321</td>
+      </tr>
+    </table>
+
+    <h2>Struktur Organisasi</h2>
+    <div class="org-chart">
+      <ul>
+        <li>Direktur Utama: Andi Pratama</li>
+        <li>Manajer Operasional: Budi Santoso</li>
+        <li>Manajer Keuangan: Citra Lestari</li>
+        <li>Manajer Pemasaran: Dwi Rahmawati</li>
+        <li>Manajer IT: Eko Saputra</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+    <!-- Profile perusahaan end -->
+
+    <!-- Penutup -->
+     <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penutupan – Company Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #0f766e;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 16px;
+    }
+    .thanks {
+      font-size: 18px;
+      font-weight: bold;
+      color: #0f172a;
+    }
+    .cta {
+      margin-top: 20px;
+      padding: 14px 24px;
+      background: #0f766e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+    .cta:hover {
+      background: #115e59;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Penutupan</h1>
+
+    <p class="thanks">Terima kasih atas perhatian dan kepercayaan Anda kepada kami.</p>
+
+    <p>
+      Kami berharap Company Profile ini dapat memberikan gambaran singkat mengenai
+      <strong>PT Fort Garry Industri</strong> serta layanan yang kami tawarkan.  
+      Kami sangat terbuka untuk berdiskusi lebih lanjut dan siap bekerja sama
+      dalam berbagai peluang di masa mendatang.
+    </p>
+
+    <p>
+      Semoga kerja sama yang terjalin dapat memberikan manfaat dan nilai tambah
+      bagi semua pihak.
+    </p>
+
+    <div class="footer">
+      Hormat kami, <br><br>
+      <strong>Manajemen PT Fort Garry Industri</strong>
+    </div>
+  </div>
+</body>
+</html>
+    <!-- Penutup end -->
+
+    <!-- Blog -->
+     <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog – Company Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-teal-600 text-white py-6 shadow-md">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-3xl font-bold">Blog PT Fort Garry Industri</h1>
+      <p class="text-sm mt-2">Berita, artikel, dan informasi terbaru dari perusahaan kami</p>
+    </div>
+  </header>
+
+  <!-- Blog Section -->
+  <main class="container mx-auto px-4 py-10">
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-teal-700 mb-6">Artikel Terbaru</h2>
+      
+      <!-- Blog Card -->
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="asset/picture2.png" alt="blog1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-semibold text-lg">Inovasi Produk Cat Ramah Lingkungan</h3>
+            <p class="text-sm text-gray-600 mt-2">PT Fort Garry Industri meluncurkan produk baru yang ramah lingkungan untuk mendukung pembangunan berkelanjutan.</p>
+            <a href="#" class="text-teal-600 font-medium mt-3 inline-block">Baca Selengkapnya →</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="asset/picture3.png" alt="blog2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-semibold text-lg">Kolaborasi dengan Mitra Internasional</h3>
+            <p class="text-sm text-gray-600 mt-2">Kami memperluas jaringan global dengan menggandeng mitra dari Asia Tenggara.</p>
+            <a href="#" class="text-teal-600 font-medium mt-3 inline-block">Baca Selengkapnya →</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="asset/picture.png" alt="blog3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-semibold text-lg">Ekspansi Pabrik Baru di Karawang</h3>
+            <p class="text-sm text-gray-600 mt-2">Dengan pabrik baru, kapasitas produksi kami meningkat untuk memenuhi kebutuhan pasar nasional.</p>
+            <a href="#" class="text-teal-600 font-medium mt-3 inline-block">Baca Selengkapnya →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+      <h2 class="text-2xl font-bold text-teal-700 mb-6">Hubungi Kami</h2>
+      <form action="#" method="POST" class="bg-white shadow-md rounded-lg p-6 max-w-xl mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-sm font-semibold mb-2">Nama</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required 
+                 class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-semibold mb-2">Email</label>
+          <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required 
+                 class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-sm font-semibold mb-2">Pesan</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda..." required
+                    class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-teal-700 transition">
+          Kirim Pesan
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-teal-700 text-white text-center py-4 mt-10">
+    <p>&copy; 2025 PT Fort Garry Industri. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
+    <!-- Blog end -->
+</body>
+</html>
